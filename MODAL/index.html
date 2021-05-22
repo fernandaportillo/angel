@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/22e099610c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body class="contenedor">
+    <div class="principal">
+
+        <a class="open-modal" data-open="modal1">
+            <div class="play-video">
+                <i class="fas fa-play"></i>
+            </div>
+            <img src="image/Salto-angel.jpg" alt="" class="image">
+        </a>
+        <div class="text">
+            <h3>El Kerepakupai Vená o Salto Ángel, es la cascada de agua más alta del mundo.
+                Se localiza en el parque nacional Canaima, Bolívar, Venezuela.
+            </h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. At alias cum dolore
+                architecto consequatur perferendis quaerat velit dicta molestias, ducimus
+                perspiciatis aut labore in! Quas id dolores mollitia ratione voluptas!
+            </p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal1">
+        <div class="modal-dialog">
+            <header class="modal-header">
+                <H3>El Kerepakupai Vená o Salto Angel</H3>
+                <button class="close-modal" aria-label="close modal" data-close>&times;</button>
+            </header>
+            <section class="modal-content">
+                <video src="video/salto_angel.mp4" controls autoplay class="video"></video>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
